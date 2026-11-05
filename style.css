@@ -81,7 +81,9 @@ a:hover { text-decoration-thickness: 2px; }
   background: var(--capture);
   color: var(--on-capture);
   font-weight: 600;
+  text-decoration: none;
 }
+a.badge:hover { filter: brightness(1.08); }
 
 /* Sections */
 section { padding: 56px 0; }
