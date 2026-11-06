@@ -122,6 +122,13 @@ section h2 { font-size: clamp(28px, 4.5vw, 38px); margin: 0 0 12px; text-align: 
 details { background: var(--row); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 10px 0; }
 summary { cursor: pointer; font-weight: 600; }
 details p { margin: 10px 0 0; color: var(--ink-secondary); }
+.facts { width: 100%; table-layout: fixed; border-collapse: collapse; background: var(--row); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.facts th, .facts td { text-align: left; vertical-align: top; padding: 10px 16px; border-top: 1px solid var(--line); }
+.facts tr:first-child th, .facts tr:first-child td { border-top: 0; }
+.facts th { width: 32%; font-weight: 600; }
+.facts td { overflow-wrap: anywhere; }
+.page .shots { margin-top: 20px; }
+.press-icon { border-radius: 28px; box-shadow: 0 6px 18px rgb(0 0 0 / 0.18); }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--ink-secondary); font-size: 15px; }
@@ -132,4 +139,6 @@ details p { margin: 10px 0 0; color: var(--ink-secondary); }
   .shots { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .cards { grid-template-columns: 1fr; }
   .site-header .wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .facts th, .facts td { padding: 10px 12px; }
+  .facts th { width: 34%; }
 }
