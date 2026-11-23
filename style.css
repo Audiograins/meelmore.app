@@ -134,6 +134,8 @@ details p { margin: 10px 0 0; color: var(--ink-secondary); }
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--ink-secondary); font-size: 15px; }
 .site-footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
 .site-footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
+.site-footer .listings { margin-top: 20px; }
+.site-footer .listings img { display: block; max-width: 100%; height: auto; }
 
 @media (max-width: 760px) {
   .shots { grid-template-columns: repeat(2, 1fr); gap: 16px; }
