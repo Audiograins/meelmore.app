@@ -144,3 +144,16 @@ details p { margin: 10px 0 0; color: var(--ink-secondary); }
   .facts th, .facts td { padding: 10px 12px; }
   .facts th { width: 34%; }
 }
+
+/* Blog */
+.post-list { list-style: none; padding: 0; margin: 24px 0 0; }
+.post-list li { background: var(--row); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; margin-bottom: 16px; }
+.post-list h2 { margin: 0 0 6px; font-size: 24px; }
+.post-list h2 a { color: var(--ink); text-decoration: none; }
+.post-list h2 a:hover { text-decoration: underline; }
+.post-list p { margin: 6px 0 0; color: var(--ink-secondary); }
+.post-meta { color: var(--ink-secondary); font-size: 15px; margin: 0 0 28px; }
+.post .lead { font-size: 20px; }
+.post blockquote { margin: 20px 0; padding: 4px 18px; border-left: 4px solid var(--complete); color: var(--ink-secondary); }
+.post-image { display: block; width: 100%; height: auto; border-radius: 16px; margin: 8px 0 28px; }
+.post-cta { background: var(--row); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; margin: 36px 0 0; }
